@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            xmlns:tools="http://schemas.android.com/tools" android:id="@+id/nav_fower.xml"
+            app:startDestination="@id/homeFragment">
+
+    <fragment android:id="@+id/homeFragment" android:name="org.yugo.nodelover.fragments.HomeFragment"
+              android:label="fragment_home" tools:layout="@layout/fragment_home"/>
+    <fragment android:id="@+id/subjectFragment" android:name="org.yugo.nodelover.fragments.SubjectFragment"
+              android:label="fragment_subject" tools:layout="@layout/fragment_subject"/>
+    <fragment android:id="@+id/meFragment" android:name="org.yugo.nodelover.fragments.MeFragment" android:label="fragment_me"
+              tools:layout="@layout/fragment_me"/>
+    <fragment android:id="@+id/loginFragment" android:name="org.yugo.nodelover.fragments.LoginFragment"
+              android:label="fragment_login" tools:layout="@layout/fragment_login"/>
+    <fragment android:id="@+id/registerFragment" android:name="org.yugo.nodelover.fragments.RegisterFragment"
+              android:label="fragment_register" tools:layout="@layout/fragment_register"/>
+</navigation>
